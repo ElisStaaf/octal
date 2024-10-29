@@ -28,5 +28,5 @@ only count empty lines and non-empty lines. This *will* be fixed soon. I promise
 
 # Usage
 ```bash
-octal <file>
+octal [options] <file>
 ```
