@@ -23,7 +23,8 @@ Then, you'd want to build the binary to your `/usr/bin`:
 ```bash
 sudo make install
 ```
-Then, you're completely free to use it.
+Then, you're completely free to use it. *BUUUUUUUUUT*, right now it doesn't have support for counting comments, it can
+only count empty lines and non-empty lines. This *will* be fixed soon. I promise.
 
 # Usage
 ```bash
