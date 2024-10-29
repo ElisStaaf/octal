@@ -26,6 +26,7 @@ func CLOC(filename string) (int, int) {
     lines, err := ReadLines(filename)
     if err != nil {
         fmt.Println("[ERROR]: bufio.NewScanner->readLines() failed.")
+        os.Exit(0)
     }
 
     var loc int = 0
