@@ -19,6 +19,8 @@ Requirements
 * `make`_
 * `git`_ or `gh`_
 
+
+
 Install
 -------
 Firstly, you'd want to install to your computer:
@@ -38,7 +40,8 @@ Then, you'd want to build the binary to your `/usr/bin`:
    sudo make install
 
 Then, you're completely free to use it. *BUUUUUUUUUT*, right now it doesn't have support for counting comments, it can
-only count empty lines and non-empty lines. This *will* be fixed soon. I promise.
+only count empty lines and non-empty lines. |defstrike| \This *will* be fixed soon.\ |endstrike|\  This will *never* be fixed.
+I promise.
 
 Usage
 -----
@@ -50,3 +53,11 @@ Usage
 .. _`git`: https://git-scm.com/downloads 
 .. _`gh`: https://github.com/cli/cli#installation
 .. _`make`: https://www.gnu.org/software/make
+
+.. |defstrike| raw:: html
+
+    <strike>
+
+.. |endstrike| raw:: html
+
+    </strike>
