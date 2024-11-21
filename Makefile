@@ -1,2 +1,2 @@
 install:
-	@go build -o /usr/bin/octal octal.go
+	go build -o /usr/bin/octal octal.go
